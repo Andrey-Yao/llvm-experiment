@@ -1,0 +1,8 @@
+/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles/intrinsics_gen.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles/omp_gen.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles/acc_gen.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles/edit_cache.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles/rebuild_cache.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/skeleton/CMakeFiles/SkeletonPass.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/skeleton/CMakeFiles/edit_cache.dir
+/home/andrey/Desktop/CS6120/llvm-experiment/build/skeleton/CMakeFiles/rebuild_cache.dir

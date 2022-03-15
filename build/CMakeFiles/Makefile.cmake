@@ -11,7 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.2/CMakeSystem.cmake"
-  "../skeleton/CMakeLists.txt"
+  "../deoptimize/CMakeLists.txt"
   "/usr/lib/cmake/llvm/LLVM-Config.cmake"
   "/usr/lib/cmake/llvm/LLVMExports-release.cmake"
   "/usr/lib/cmake/llvm/LLVMExports.cmake"
@@ -51,7 +51,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "skeleton/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "deoptimize/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -59,5 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/intrinsics_gen.dir/DependInfo.cmake"
   "CMakeFiles/omp_gen.dir/DependInfo.cmake"
   "CMakeFiles/acc_gen.dir/DependInfo.cmake"
-  "skeleton/CMakeFiles/SkeletonPass.dir/DependInfo.cmake"
+  "deoptimize/CMakeFiles/DeoptimizePass.dir/DependInfo.cmake"
   )

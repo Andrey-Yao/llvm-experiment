@@ -63,34 +63,34 @@ CMAKE_BINARY_DIR = /home/andrey/Desktop/CS6120/llvm-experiment/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: skeleton/all
+all: deoptimize/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: skeleton/preinstall
+preinstall: deoptimize/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/intrinsics_gen.dir/clean
 clean: CMakeFiles/omp_gen.dir/clean
 clean: CMakeFiles/acc_gen.dir/clean
-clean: skeleton/clean
+clean: deoptimize/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory skeleton
+# Directory level rules for directory deoptimize
 
 # Recursive "all" directory target.
-skeleton/all: skeleton/CMakeFiles/SkeletonPass.dir/all
-.PHONY : skeleton/all
+deoptimize/all: deoptimize/CMakeFiles/DeoptimizePass.dir/all
+.PHONY : deoptimize/all
 
 # Recursive "preinstall" directory target.
-skeleton/preinstall:
-.PHONY : skeleton/preinstall
+deoptimize/preinstall:
+.PHONY : deoptimize/preinstall
 
 # Recursive "clean" directory target.
-skeleton/clean: skeleton/CMakeFiles/SkeletonPass.dir/clean
-.PHONY : skeleton/clean
+deoptimize/clean: deoptimize/CMakeFiles/DeoptimizePass.dir/clean
+.PHONY : deoptimize/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/intrinsics_gen.dir
@@ -171,30 +171,30 @@ CMakeFiles/acc_gen.dir/clean:
 .PHONY : CMakeFiles/acc_gen.dir/clean
 
 #=============================================================================
-# Target rules for target skeleton/CMakeFiles/SkeletonPass.dir
+# Target rules for target deoptimize/CMakeFiles/DeoptimizePass.dir
 
 # All Build rule for target.
-skeleton/CMakeFiles/SkeletonPass.dir/all:
-	$(MAKE) $(MAKESILENT) -f skeleton/CMakeFiles/SkeletonPass.dir/build.make skeleton/CMakeFiles/SkeletonPass.dir/depend
-	$(MAKE) $(MAKESILENT) -f skeleton/CMakeFiles/SkeletonPass.dir/build.make skeleton/CMakeFiles/SkeletonPass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles --progress-num=1,2 "Built target SkeletonPass"
-.PHONY : skeleton/CMakeFiles/SkeletonPass.dir/all
+deoptimize/CMakeFiles/DeoptimizePass.dir/all:
+	$(MAKE) $(MAKESILENT) -f deoptimize/CMakeFiles/DeoptimizePass.dir/build.make deoptimize/CMakeFiles/DeoptimizePass.dir/depend
+	$(MAKE) $(MAKESILENT) -f deoptimize/CMakeFiles/DeoptimizePass.dir/build.make deoptimize/CMakeFiles/DeoptimizePass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles --progress-num=1,2 "Built target DeoptimizePass"
+.PHONY : deoptimize/CMakeFiles/DeoptimizePass.dir/all
 
 # Build rule for subdir invocation for target.
-skeleton/CMakeFiles/SkeletonPass.dir/rule: cmake_check_build_system
+deoptimize/CMakeFiles/DeoptimizePass.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 skeleton/CMakeFiles/SkeletonPass.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deoptimize/CMakeFiles/DeoptimizePass.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/Desktop/CS6120/llvm-experiment/build/CMakeFiles 0
-.PHONY : skeleton/CMakeFiles/SkeletonPass.dir/rule
+.PHONY : deoptimize/CMakeFiles/DeoptimizePass.dir/rule
 
 # Convenience name for target.
-SkeletonPass: skeleton/CMakeFiles/SkeletonPass.dir/rule
-.PHONY : SkeletonPass
+DeoptimizePass: deoptimize/CMakeFiles/DeoptimizePass.dir/rule
+.PHONY : DeoptimizePass
 
 # clean rule for target.
-skeleton/CMakeFiles/SkeletonPass.dir/clean:
-	$(MAKE) $(MAKESILENT) -f skeleton/CMakeFiles/SkeletonPass.dir/build.make skeleton/CMakeFiles/SkeletonPass.dir/clean
-.PHONY : skeleton/CMakeFiles/SkeletonPass.dir/clean
+deoptimize/CMakeFiles/DeoptimizePass.dir/clean:
+	$(MAKE) $(MAKESILENT) -f deoptimize/CMakeFiles/DeoptimizePass.dir/build.make deoptimize/CMakeFiles/DeoptimizePass.dir/clean
+.PHONY : deoptimize/CMakeFiles/DeoptimizePass.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

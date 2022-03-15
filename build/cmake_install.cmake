@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/andrey/Desktop/CS6120/llvm-experiment/build/skeleton/cmake_install.cmake")
+  include("/home/andrey/Desktop/CS6120/llvm-experiment/build/deoptimize/cmake_install.cmake")
 
 endif()
 

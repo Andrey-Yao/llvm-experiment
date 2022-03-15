@@ -1,10 +1,13 @@
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
 #include <stdio.h>
-int main() {
-   // printf() displays the string inside quotation
-   printf("Hello, World!");
-   int a = 9;
-   int b = 10;
-   int c = a * b;
-   printf(c);
-   return 0;
+
+int main(int argc, char *argv[])
+{
+  printf("Hehe");
+  int a = 9;
+  int b = 9;
+  int c = a * b;
+  return 0;
 }

@@ -156,17 +156,17 @@ acc_gen/fast:
 .PHONY : acc_gen/fast
 
 #=============================================================================
-# Target rules for targets named SkeletonPass
+# Target rules for targets named DeoptimizePass
 
 # Build rule for target.
-SkeletonPass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SkeletonPass
-.PHONY : SkeletonPass
+DeoptimizePass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeoptimizePass
+.PHONY : DeoptimizePass
 
 # fast build rule for target.
-SkeletonPass/fast:
-	$(MAKE) $(MAKESILENT) -f skeleton/CMakeFiles/SkeletonPass.dir/build.make skeleton/CMakeFiles/SkeletonPass.dir/build
-.PHONY : SkeletonPass/fast
+DeoptimizePass/fast:
+	$(MAKE) $(MAKESILENT) -f deoptimize/CMakeFiles/DeoptimizePass.dir/build.make deoptimize/CMakeFiles/DeoptimizePass.dir/build
+.PHONY : DeoptimizePass/fast
 
 # Help Target
 help:
@@ -179,7 +179,7 @@ help:
 	@echo "... acc_gen"
 	@echo "... intrinsics_gen"
 	@echo "... omp_gen"
-	@echo "... SkeletonPass"
+	@echo "... DeoptimizePass"
 .PHONY : help
 
 
